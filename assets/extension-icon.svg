@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 32 32" shape-rendering="crispEdges">
+  <rect width="32" height="32" fill="#008080"/>
+  <!-- Original pixel artwork: beveled CRT with a classic application window. -->
+  <path d="M2 3h28v22H2zM12 25h8v3h5v3H7v-3h5z" fill="#000000"/>
+  <path d="M3 4h26v20H3zM13 25h6v4h5v1H8v-1h5z" fill="#C0C0C0"/>
+  <path d="M3 4h26v1H4v18H3zM8 29h16v1H8z" fill="#FFFFFF"/>
+  <path d="M28 5h1v19H4v-1h24zM18 25h1v4h-1z" fill="#808080"/>
+  <rect x="5" y="6" width="22" height="16" fill="#808080"/>
+  <rect x="6" y="7" width="20" height="14" fill="#FFFFFF"/>
+  <rect x="6" y="7" width="20" height="3" fill="#000080"/>
+  <rect x="7" y="8" width="1" height="1" fill="#FFFFFF"/>
+  <rect x="23" y="8" width="2" height="1" fill="#C0C0C0"/>
+  <!-- Pixel numerals are paths, independent of installed fonts. -->
+  <path d="M9 12h5v1H9zM9 13h1v2H9zM13 13h1v5h-1zM9 15h4v1H9zM9 18h5v1H9zM17 12h5v1h-5zM17 13h1v2h-1zM17 15h5v1h-5zM21 16h1v2h-1zM17 18h5v1h-5z" fill="#000080"/>
+  <rect x="24" y="23" width="2" height="1" fill="#008000"/>
+</svg>

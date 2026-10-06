@@ -1,0 +1,12 @@
+node_modules/**
+.runtime/**
+.git/**
+artifacts/**
+tests/**
+fixtures/**
+presets/**
+scripts/**
+docs/**
+package-lock.json
+development-prompt.md
+**/__pycache__/**

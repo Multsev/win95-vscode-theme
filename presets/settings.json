@@ -1,0 +1,12 @@
+{
+  "editor.fontFamily": "'Courier New', Menlo, Monaco, monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 20,
+  "editor.fontLigatures": false,
+  "terminal.integrated.fontFamily": "'Courier New', Menlo, Monaco, monospace",
+  "terminal.integrated.fontSize": 14,
+  "window.titleBarStyle": "custom",
+  "window.density.editorTabHeight": "compact",
+  "markdown.preview.fontFamily": "\"Microsoft Sans Serif\", Tahoma, Arial, sans-serif",
+  "markdown.preview.fontSize": 14
+}

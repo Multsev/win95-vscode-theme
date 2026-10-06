@@ -1,0 +1,8 @@
+node_modules/
+.runtime/
+artifacts/*.vsix
+artifacts/*.log
+artifacts/*settings-backup*
+.DS_Store
+artifacts/*.zip
+**/__pycache__/

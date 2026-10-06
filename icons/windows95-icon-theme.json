@@ -1,0 +1,156 @@
+{
+  "iconDefinitions": {
+    "file": {
+      "iconPath": "./images/file.svg"
+    },
+    "text": {
+      "iconPath": "./images/text.svg"
+    },
+    "markdown": {
+      "iconPath": "./images/markdown.svg"
+    },
+    "javascript": {
+      "iconPath": "./images/javascript.svg"
+    },
+    "typescript": {
+      "iconPath": "./images/typescript.svg"
+    },
+    "python": {
+      "iconPath": "./images/python.svg"
+    },
+    "yaml": {
+      "iconPath": "./images/yaml.svg"
+    },
+    "json": {
+      "iconPath": "./images/json.svg"
+    },
+    "code": {
+      "iconPath": "./images/code.svg"
+    },
+    "shell": {
+      "iconPath": "./images/shell.svg"
+    },
+    "config": {
+      "iconPath": "./images/config.svg"
+    },
+    "git": {
+      "iconPath": "./images/git.svg"
+    },
+    "pdf": {
+      "iconPath": "./images/pdf.svg"
+    },
+    "stylesheet": {
+      "iconPath": "./images/stylesheet.svg"
+    },
+    "image": {
+      "iconPath": "./images/image.svg"
+    },
+    "archive": {
+      "iconPath": "./images/archive.svg"
+    },
+    "folder": {
+      "iconPath": "./images/folder.svg"
+    },
+    "folder-open": {
+      "iconPath": "./images/folder-open.svg"
+    },
+    "workspace": {
+      "iconPath": "./images/workspace.svg"
+    },
+    "workspace-open": {
+      "iconPath": "./images/workspace-open.svg"
+    }
+  },
+  "file": "file",
+  "folder": "folder",
+  "folderExpanded": "folder-open",
+  "rootFolder": "workspace",
+  "rootFolderExpanded": "workspace-open",
+  "hidesExplorerArrows": false,
+  "fileExtensions": {
+    "md": "markdown",
+    "markdown": "markdown",
+    "mdx": "markdown",
+    "txt": "text",
+    "js": "javascript",
+    "mjs": "javascript",
+    "cjs": "javascript",
+    "jsx": "javascript",
+    "ts": "typescript",
+    "tsx": "typescript",
+    "py": "python",
+    "pyw": "python",
+    "yaml": "yaml",
+    "yml": "yaml",
+    "json": "json",
+    "jsonc": "json",
+    "jsonl": "json",
+    "html": "code",
+    "htm": "code",
+    "xml": "code",
+    "css": "stylesheet",
+    "scss": "stylesheet",
+    "sass": "stylesheet",
+    "less": "stylesheet",
+    "sh": "shell",
+    "bash": "shell",
+    "zsh": "shell",
+    "ps1": "shell",
+    "bat": "shell",
+    "cmd": "shell",
+    "ini": "config",
+    "toml": "config",
+    "cfg": "config",
+    "properties": "config",
+    "png": "image",
+    "jpg": "image",
+    "jpeg": "image",
+    "gif": "image",
+    "webp": "image",
+    "svg": "image",
+    "ico": "image",
+    "pdf": "pdf",
+    "zip": "archive",
+    "gz": "archive",
+    "tar.gz": "archive",
+    "tar": "archive",
+    "7z": "archive",
+    "rar": "archive",
+    "kt": "code",
+    "java": "code",
+    "c": "code",
+    "h": "code",
+    "cpp": "code",
+    "rs": "code",
+    "go": "code",
+    "sql": "code"
+  },
+  "fileNames": {
+    ".gitignore": "git",
+    ".gitattributes": "git",
+    ".gitmodules": "git",
+    ".env": "config",
+    "Dockerfile": "config",
+    "Makefile": "config",
+    "package.json": "json",
+    "package-lock.json": "json",
+    "tsconfig.json": "json"
+  },
+  "languageIds": {
+    "markdown": "markdown",
+    "javascript": "javascript",
+    "javascriptreact": "javascript",
+    "typescript": "typescript",
+    "typescriptreact": "typescript",
+    "python": "python",
+    "yaml": "yaml",
+    "json": "json",
+    "jsonc": "json",
+    "shellscript": "shell",
+    "powershell": "shell",
+    "css": "stylesheet",
+    "html": "code",
+    "xml": "code",
+    "plaintext": "text"
+  }
+}
