@@ -101,7 +101,7 @@
     "titleBar.activeForeground": "#FFFFFF",
     "activityBarBadge.foreground": "#FFFFFF",
     "badge.foreground": "#FFFFFF",
-    "selection.background": "#000080",
+    "selection.background": "#B8CBED",
     "titleBar.activeBackground": "#000080",
     "list.activeSelectionBackground": "#000080",
     "list.focusBackground": "#000080",

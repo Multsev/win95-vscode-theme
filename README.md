@@ -2,11 +2,11 @@
 
 ![Значок расширения](assets/extension-icon.png)
 
-Версия 1.3.1. Стандартная светлая тема VS Code и согласованная тема файловых значков. Серые панели, белые активные вкладки с синей границей, тёмно-синее выделение списков, читаемая подсветка и оригинальные пиксельные значки. Разработана для VS Code 1.140.0 на macOS.
+Версия 1.3.2. Стандартная светлая тема VS Code и согласованная тема файловых значков. Серые панели, белые активные вкладки с синей границей, тёмно-синее выделение списков, читаемая подсветка и оригинальные пиксельные значки. Разработана для VS Code 1.140.0 на macOS.
 
 ## Установка и включение
 
-Скачайте `windows95-classic-1.3.1.vsix` из [релиза v1.3.1](https://github.com/Multsev/win95-vscode-theme/releases/tag/v1.3.1). В VS Code откройте Extensions → «…» → Install from VSIX и выберите скачанный файл. При сборке из исходников пакет находится в `artifacts/`.
+Скачайте `windows95-classic-1.3.2.vsix` из [релиза v1.3.2](https://github.com/Multsev/win95-vscode-theme/releases/tag/v1.3.2). В VS Code откройте Extensions → «…» → Install from VSIX и выберите скачанный файл. При сборке из исходников пакет находится в `artifacts/`.
 
 В палитре команд:
 
@@ -18,10 +18,12 @@
 CLI:
 
 ```sh
-"/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" --install-extension artifacts/windows95-classic-1.3.1.vsix --force
+"/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" --install-extension artifacts/windows95-classic-1.3.2.vsix --force
 ```
 
 После установки VS Code запускается обычным способом. Расширение декларативное: исполняемого кода, фоновых процессов, отладочного порта и CSS-инъекции нет.
+
+Выделение текста в карточках расширений и полях интерфейса использует светло-голубой фон: чёрные заголовки остаются читаемыми. Для общего выделения текста официальный API предоставляет `selection.background`, без отдельного `selection.foreground`.
 
 ## Что доработано
 

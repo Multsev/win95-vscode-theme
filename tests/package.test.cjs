@@ -93,3 +93,11 @@ test('search, terminal selections, validation and status states preserve text co
   assert.ok(contrast(theme.colors['editor.foreground'],background)>=4.5,`${kind} diff text`);
  }
 });
+
+test('workbench text selection preserves contrast of inherited headings and links',()=>{
+ for(const key of ['foreground','descriptionForeground','textLink.foreground','textLink.activeForeground']){
+  const color=theme.colors[key];
+  if(color)assert.ok(contrast(color,theme.colors['selection.background'])>=4.5,`${key} on workbench selection`);
+ }
+ assert.ok(contrast('#000000',theme.colors['selection.background'])>=4.5,'Black extension headings must remain readable');
+});
